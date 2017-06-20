@@ -96,7 +96,7 @@ namespace Nock.net
                         lookup[9] = new Tuple<string, string>("referrer", "Referrer");
                         lookup[10] = new Tuple<string, string>("transfer-encoding", "TransferEncoding");
                         lookup[11] = new Tuple<string, string>("user-agent", "UserAgent");
-                        lookup[11] = new Tuple<string, string>("proxy-connection", "KeepAlive");
+                        lookup[12] = new Tuple<string, string>("proxy-connection", "KeepAlive");
 
                         var match = lookup.FirstOrDefault(x => x.Item1 == currentKey);
 
